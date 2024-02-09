@@ -1,0 +1,66 @@
+/* Exercice 1 */
+/* 1 */
+h1 {
+    text-align: center;
+    color: red;
+ }
+/* 2 */
+ h2 {
+    text-decoration: underline;
+ }
+/* 3 */
+ section>h2 {
+    color: green;
+ }
+h1{
+ text-shadow: 10px currentColor;
+}
+
+/* Exercice 2 */
+div{
+       /* 1 */
+    background-color: blue;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    border: solid;
+}
+
+div:hover{
+    background-color: rgb(255, 0, 0);
+    margin: 20px;
+
+    width: 300px;
+    height: 300px;
+    border: solid;
+    /* 2 */
+    transform: translateX(100px) translateY(100px);
+    /* 3 */
+    rotate: 40deg; 
+}
+
+/* 4 */
+@media screen {
+    
+} 
+    /* Exercice3 */
+
+ul{
+    margin-top: 300px;
+    margin-bottom: 200px;
+    background-color: blue;
+    border: solid;
+    border-color: blue;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.About{
+    display: flex;
+    justify-self: left;
+    margin-right: 200px;
+
+}
+/* Exercice 4 */
+
